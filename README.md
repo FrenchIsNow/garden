@@ -1,139 +1,108 @@
-# Gadden - Garden & Landscaping Website
+# Garden Site
 
-A modern, responsive website for garden and landscaping services built with Next.js and React.
+A modern, responsive Next.js application for garden and landscaping services.
 
-## 🚀 Features
+## Features
 
-- **Modern Design**: Clean, professional design with beautiful animations
-- **Responsive Layout**: Optimized for all devices (desktop, tablet, mobile)
-- **Multiple Pages**: Home, About, Services, Projects, Blog, Contact, and more
-- **Interactive Components**: Sliders, galleries, testimonials, and contact forms
-- **Performance Optimized**: Fast loading times with optimized images and code
+- **Next.js 14** - Latest React framework with App Router
+- **Responsive Design** - Mobile-first approach with Bootstrap
+- **Interactive Components** - React-based interactive elements
+- **Modern UI** - Clean and professional design
+- **SEO Optimized** - Built-in Next.js SEO capabilities
+- **Fast Performance** - Optimized for speed and user experience
 
-## 📁 Project Structure
+## Pages
 
-```
-Gadden/
-├── Documentation/          # HTML documentation and assets
-├── garden site/           # Next.js application
-│   ├── pages/            # Next.js pages
-│   ├── public/           # Static assets
-│   ├── src/              # React components
-│   └── styles/           # Global styles
-└── README.md
-```
+- Home (Multiple variants)
+- About Us
+- Services & Service Details
+- Projects Gallery (Grid, Masonry, 2-Column)
+- Team & Individual Team Members
+- Blog & Blog Details
+- Shop & Product Details
+- Contact
+- Pricing
+- Testimonials
+- FAQs
 
-## 🛠️ Technologies Used
-
-- **Frontend**: Next.js, React, JavaScript
-- **Styling**: CSS, SCSS, Tailwind CSS
-- **Icons**: Font Awesome, Themify Icons
-- **Animations**: Custom CSS animations
-- **Build Tool**: Next.js
-
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-- Node.js (version 14 or higher)
+- Node.js 18+ 
 - npm or yarn
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/FrenchIsNow/garden.git
-   cd garden
-   ```
+1. Clone the repository:
+```bash
+git clone https://github.com/FrenchIsNow/garden-site.git
+```
 
-2. **Navigate to the Next.js project**
-   ```bash
-   cd "garden site"
-   ```
+2. Install dependencies:
+```bash
+npm install
+```
 
-3. **Install dependencies**
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
+3. Run the development server:
+```bash
+npm run dev
+```
 
-4. **Run the development server**
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-5. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000) to see the application.
+### Alternative Ports
 
-## 📄 Available Pages
+The project includes scripts for running on different ports:
 
-- **Home**: Main landing page with hero section and services
-- **About**: Company information and team details
-- **Services**: Detailed service offerings
-- **Projects**: Portfolio of completed projects
-- **Blog**: Articles and news
-- **Contact**: Contact form and location information
-- **Pricing**: Service pricing plans
-- **Team**: Team member profiles
-- **Testimonials**: Customer reviews and feedback
+```bash
+# Development on different ports
+npm run dev:3001  # Port 3001
+npm run dev:4000  # Port 4000
+npm run dev:8080  # Port 8080
 
-## 🎨 Customization
+# Production on different ports
+npm run start:3001  # Port 3001
+npm run start:4000  # Port 4000
+npm run start:8080  # Port 8080
+```
 
-### Styling
-- Main styles are in `public/assets/css/style.css`
-- SCSS files are in `public/assets/scss/`
-- Global styles in `styles/globals.css`
+## Build for Production
 
-### Components
-- React components are in `src/components/`
-- Layout components in `src/layouts/`
-
-### Images
-- All images are stored in `public/assets/images/`
-- Organized by category (hero, about, blog, etc.)
-
-## 📱 Responsive Design
-
-The website is fully responsive and optimized for:
-- Desktop (1200px+)
-- Tablet (768px - 1199px)
-- Mobile (320px - 767px)
-
-## 🔧 Build and Deployment
-
-### Build for Production
 ```bash
 npm run build
-# or
-yarn build
-```
-
-### Start Production Server
-```bash
 npm start
-# or
-yarn start
 ```
 
-## 📝 License
+## Project Structure
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+```
+garden-site/
+├── pages/           # Next.js pages
+├── src/
+│   ├── components/  # Reusable components
+│   ├── layouts/     # Layout components
+│   └── utils/       # Utility functions
+├── public/
+│   └── assets/      # Static assets
+├── styles/          # Global styles
+└── package.json
+```
 
-## 🤝 Contributing
+## Technologies Used
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+- **Next.js 14** - React framework
+- **React 18** - JavaScript library
+- **Bootstrap** - CSS framework
+- **React Slick** - Carousel component
+- **Isotope Layout** - Grid layouts
+- **React CountUp** - Animated counters
+- **WOW.js** - Scroll animations
 
-## 📞 Support
+## License
 
-For support, email support@gadden.com or create an issue in this repository.
+This project is licensed under the MIT License.
 
----
+## Contact
 
-**Gadden** - Bringing beauty to your outdoor spaces 🌿 
+For any inquiries, please contact [agenceweb@frenchisnow.com](mailto:agenceweb@frenchisnow.com) 

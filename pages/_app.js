@@ -2,6 +2,16 @@ import Preloader from "@/src/layouts/Preloader";
 import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 import "/styles/globals.css";
+
+// Fix for i18n.changeLanguage error
+if (typeof window !== 'undefined') {
+  window.i18n = window.i18n || {
+    changeLanguage: () => {},
+    t: (key) => key,
+    language: 'en'
+  };
+}
+
 const App = ({ Component, pageProps }) => {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
